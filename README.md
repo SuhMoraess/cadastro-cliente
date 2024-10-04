@@ -1,29 +1,17 @@
 # Aplicação Fullstack
- Aplicação de um CRUD de cadastro de cliente.
+ ### Crud de criação de cliente
   - Criar 
-  - Atualizar
   - Deletar
   - Leitura
 
 ## Stack
  - NodeJS
+ - Typescript
  - Prisma
  - MongoDB
  - React
 
-### API com NodeJS
-- Inicializado:
- npm init
-
- - Instalação Typescript:
- npm install typescript --save-dev
-
- - Configurando o typescript no projeto:
- npx tsc --init
-
- - Pasta src: 
- - Adicionar um file para rotas - routes.ts, e outro file para server.ts
- 
- - Instalação do Fastify : npm install fastify @fastify/cors
- - Instalação do tsx (Aplicação para rodar os projetos typescript): npm install tsx
-- Criar API REST com Fastify
+### API 
+- Cadastro de cliente
+- Listagem de todos os clientes
+- Delete de cliente por ID.
